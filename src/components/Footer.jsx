@@ -12,7 +12,10 @@ export default function Footer() {
         <div tw="flex flex-wrap items-center md:justify-between justify-center">
           <div tw="w-full md:w-4/12 px-4 mx-auto text-center">
             <div tw="text-sm text-gray-600 font-semibold py-1">
-              © {new Date().getFullYear()} @Aldrian
+              © {new Date().getFullYear()}{' '}
+              <a href="https://github.com/Aldrian/pickmany" target="_blank">
+                @Aldrian
+              </a>
             </div>
           </div>
         </div>
