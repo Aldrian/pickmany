@@ -13,7 +13,11 @@ export default function Footer() {
           <div tw="w-full md:w-4/12 px-4 mx-auto text-center">
             <div tw="text-sm text-gray-600 font-semibold py-1">
               © {new Date().getFullYear()}{' '}
-              <a href="https://github.com/Aldrian/pickmany" target="_blank">
+              <a
+                href="https://github.com/Aldrian/pickmany"
+                rel="noreferrer"
+                target="_blank"
+              >
                 @Aldrian
               </a>
             </div>
